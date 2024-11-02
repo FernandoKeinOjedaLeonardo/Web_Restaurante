@@ -1,3 +1,49 @@
-
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav" style="background-color: rgba(52,58,64,0.75);">
+    <div class="container">
+      <a class="navbar-brand" routerLink="./home" style="color: rgb(255,165,85);">JATF’s</a>
+      <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(255,165,85);"><i class="fa fa-bars" style="color: rgba(255,255,255,0.75);"></i></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto text-uppercase">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link js-scroll-trigger" routerLink="./inicio" style="color: rgb(255,165,85);">Inicio</a>
+            </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" routerLink="./carta" style="color: rgb(255,165,85);">Carta</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" routerLink="./equipo" style="color: rgb(255,165,85);">Equipo</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" routerLink="./contacto" style="color: rgb(255,165,85);">Contacto</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" routerLink="./locales" style="color: rgb(255,165,85);">Locales</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" routerLink="./acceder" style="color: rgb(255,165,85);">Acceder</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <router-outlet></router-outlet>
+  
+  <!-- Footer -->
+  <div class="footer-dark" style="padding: 0px;">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col item social">
+            <a href="https://www.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+          </div>
+          <div class="col text-right">
+            <button class="btn btn-outline-secondary" routerLink="./reclamaciones">Reclamaciones</button>
+          </div>
+        </div>
+        <p class="copyright">JATF’s&copy; 2024</p>
+      </div>
+    </footer>
+  </div>

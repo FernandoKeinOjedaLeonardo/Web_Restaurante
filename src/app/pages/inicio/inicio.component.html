@@ -1,1 +1,41 @@
-<p>inicio works!</p>
+<header class="masthead" style="background-image: url('assets/img/platillos/back-2.jpg'); height: 600px; background-size: cover; background-position: center; color: white; display: flex; align-items: center; justify-content: center;">
+  <div class="container">
+      <div class="intro-text" style="text-align: center;">
+          <div class="intro-lead-in"><span style="-webkit-text-stroke: 1px rgba(120,120,120,0.50);">Bienvenido a JATF’s</span></div>
+          <div class="intro-heading text-uppercase">
+              <span style="-webkit-text-stroke: 1px rgba(120,120,120,0.50);">DELIVERY GRATIS</span>
+          </div>
+      </div>
+  </div>
+</header>
+
+<div class="container mt-5 pt-5">  
+    <!-- Sección descripción -->
+    <div class="row my-4">
+      <div class="col-10 text-center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-2 text-center">
+        <button class="btn btn-outline-secondary" routerLink="/carta" (click)="navigateToCarta()">Ir a Platillos</button>
+    </div>
+    </div>
+  
+    <!-- Sección categoría con imagen de fondo -->
+    <div class="row text-center mb-4">
+      <div class="col-md-4">
+        <div class="category-section" style="background-image: url('assets/img/platillos/platillo-1.jpg'); background-size: cover; background-position: center; padding: 80px; cursor: pointer; width: 100%;" (click)="navigateToCarta()">
+          <h4 style="background-color: rgba(255, 255, 255, 0.8); padding: 30px;">Categoría</h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="category-section" style="background-image: url('assets/img/platillos/platillo-1.jpg'); background-size: cover; background-position: center; padding: 80px; cursor: pointer; width: 100%;" (click)="navigateToCarta()">
+          <h4 style="background-color: rgba(255, 255, 255, 0.8); padding: 30px;">Categoría</h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="category-section" style="background-image: url('assets/img/platillos/platillo-1.jpg'); background-size: cover; background-position: center; padding: 80px; cursor: pointer; width: 100%;" (click)="navigateToCarta()">
+          <h4 style="background-color: rgba(255, 255, 255, 0.8); padding: 30px;">Categoría</h4>
+        </div>
+      </div>
+    </div>
+  </div>
